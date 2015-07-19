@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 48;
+	font-weight: 800;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+body {
+	background-image: url("body_bg.png");
+}
+
+.minetestBackground {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center; 
+}
+
+.minetestBackground .minetestIcon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 75%;
+	transform: translateY(-50%) translateX(-50%);
+	width: auto;
+	vertical-align: middle;
+	z-index: -100;
+}
+
+.minetestBackground .minetestHeader {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	vertical-align: middle;
+}
+
+.buttonBanner {
+	background: rgba(6, 6, 6, 0.62);
+	position: absolute;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	transform: translateY(-50%);
+	padding: 10px 10px 10px 10px;
+}
+
+.button {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 25%;
+	padding-left: 4%;
+	padding-right: 4%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 32;
+	font-weight: 400;
+	color: #FFFFFF;
+	height: 75%;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.buttonBanner .download {
+	background-color: #0000FF;
+}
+
+.buttonBanner .features {
+	background-color: rgb(141, 0, 0);
+}
+
+.buttonBanner .screenshots {
+	background-color: rgb(19, 153, 5);
+}
+
+.buttonBanner .community {
+	background-color: rgb(186, 0, 255);
+}
+
+.buttonBanner .contributors {
+	background-color: #00B3AC;
+}
+
+.dropdown {
+	background-color: #000000;
+}
+
+.dropdown .dropdownMenu {
+	position: relative;
+	margin-top: 10%;
+	display: none;
+	background-color: rgba(6, 6, 6, 0.62);
+	width: 100%;
+	padding: 20px 10px 20px 10px;
+}
+
+.dropdown .dropdownMenu div {
+	padding-top: 0px;
+}
+
+
+.dropdown .dropdownMenu .wiki {
+	background-color: #A011ED;
+	margin-bottom: 20;
+}
+
+.dropdown .dropdownMenu .forums {
+	background-color: #E89510;
+}
+
+.footerText {
+	width: 100%;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16;
+	font-weight: 400;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.page h3 {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.darkPage {
+	background-color: rgba(6, 6, 6, 0.9);
+}
+
+.darkPage h3 {
+	color: #FFFFFF;
+}
